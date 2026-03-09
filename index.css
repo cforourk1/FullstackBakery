@@ -113,8 +113,8 @@ body {
 .p1 {
     display: flex;
     flex-flow: column;
-    column-gap: 10;
     height: auto;
+    margin: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2ch
 }
@@ -133,9 +133,8 @@ body {
 }
 .foot {
     display: flex;
+    flex-direction: column-reverse;
     display: inline;
-    flex-direction: row;
-    justify-content: center;
     background-color: rgb(212, 177, 246);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2ch;
