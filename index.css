@@ -51,11 +51,14 @@ body {
     font-size: 3ch;
     color: rgb(255, 255, 255);
 }
+
 .sidenav {
     display: flex;
-    justify-content: left;
-    flex-flow: column;
-    gap: 5ch;
+    flex-direction: column;
+    column-gap: 20ch;
+    column-width: 20vw;
+    max-width: 100%;
+    justify-content: space-evenly;
 }
 .br {
     display:flex ;
@@ -87,6 +90,7 @@ body {
 .mu  {
     display:flex ;
     justify-content: space-evenly;
+    column-gap: 1in;
     border-radius: 10ch;
     background-color: rgb(240, 20, 178);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,7 +112,9 @@ body {
 }
 .p1 {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
+    column-gap: 10;
+    height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2ch
 }
