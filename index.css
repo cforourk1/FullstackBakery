@@ -1,18 +1,18 @@
 main {
     display: flex;
     flex-grow: 1;
-    justify-content: right;
 }
 body {
-    background-image: url("https://cdn.shopify.com/s/files/1/0416/8083/0620/files/HKC-VAN-02-1715990245633.jpg");
+    background-color: rgb(245, 208, 240);
 }
 .ba {
     display: flex;
+    flex-flow: row;
     display: inline;
-     background-color: rgb(240, 93, 198);
-    border-radius: 50px;
+    background-color: rgb(173, 9, 127);
+    border-radius: 5ch;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(3, 0, 0);
+    color: rgb(248, 220, 241);
     font-size: 5ch;
 }
 .topnav {
@@ -24,28 +24,24 @@ body {
 
 }
 .m {
-    display: flex;
     background-color: rgb(101, 47, 203);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3ch;
     color: rgb(255, 255, 255);
 }
 .c {
-    display: flex;
     background-color: rgb(101, 47, 203);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3ch;
     color: rgb(255, 255, 255);
 }
 .r {
-    display: flex;
     background-color: rgb(101, 47, 203);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3ch;
     color: rgb(255, 255, 255);
 }
 .a {
-    display: flex;
     background-color: rgb(101, 47, 203);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3ch;
@@ -55,10 +51,16 @@ body {
 .sidenav {
     display: flex;
     flex-direction: column;
-    column-gap: 20ch;
-    column-width: 20vw;
-    max-width: 100%;
-    justify-content: space-evenly;
+    column-gap: 20rem;
+}
+ul {
+    display:flex;
+    flex-direction: column;
+    column-gap: 5em;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2ch;
+    list-style: none;
 }
 .br {
     display:flex ;
@@ -108,18 +110,17 @@ body {
 }
 .title {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .p1 {
     display: flex;
-    flex-flow: column;
-    height: auto;
-    margin: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2ch
+    font-size: 2ch;
 }
 .testimonial {
     display: flex;
+    flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: 2ch;
@@ -127,8 +128,9 @@ body {
 }
 .sa {
     display: flex;
+    flex-direction: column-reverse;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2ch;
+    font-size: 1ch;
     font-style: italic;
 }
 .foot {
